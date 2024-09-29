@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('./Gilroy-Medium_eHDK2RllDd.ttf');        
+}
+*{
+    font-family: "gilroy";
+}
+::selection{
+    color: rgb(224, 210, 58);
+}
